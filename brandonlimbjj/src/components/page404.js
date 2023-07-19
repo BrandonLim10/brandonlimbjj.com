@@ -1,4 +1,4 @@
-import page404img from "../page404.jpg";
+import page404img from "../media/page404.jpg";
 import "../App.css";
 
 const PageNotFound = () => {
