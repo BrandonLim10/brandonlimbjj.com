@@ -1,26 +1,32 @@
 const Classes = () => {
   return (
     <>
-      <div className="container my-5 border border-solid">
-        <div className="row my-5 text-center border border-solid">
-          <div className="col-sm my-5">Monday</div>
-          <div className="col-sm my-5">Tuesday</div>
-          <div className="col-sm my-5">Wednesday</div>
-          <div className="col-sm my-5">Thursday</div>
-          <div className="col-sm my-5">Friday</div>
-          <div className="col-sm my-5">Saturday</div>
-          <div className="col-sm my-5">Sunday</div>
-        </div>
-        <div className="row my-3 text-center">
-          <div className="col-sm my-5">* On Hiatus *</div>
-          <div className="col-sm my-5">* On Hiatus *</div>
-          <div className="col-sm my-5">* On Hiatus *</div>
-          <div className="col-sm my-5">* On Hiatus *</div>
-          <div className="col-sm my-5">* On Hiatus *</div>
-          <div className="col-sm my-5">* On Hiatus *</div>
-          <div className="col-sm my-5">* On Hiatus *</div>
-        </div>
-      </div>
+    <div class="container-sm">
+      <table class="table table-bordered border border-5">
+        <thead>
+            <tr>
+              <th scope="col">Monday</th>
+              <th scope="col">Tuesday</th>
+              <th scope="col">Wednesday</th>
+              <th scope="col">Thursday</th>
+              <th scope="col">Friday</th>
+              <th scope="col">Saturday</th>
+              <th scope="col">Sunday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>*On Haitus*</td>
+              <td>*On Haitus*</td>
+              <td>*On Haitus*</td>
+              <td>*On Haitus*</td>
+              <td>*On Haitus*</td>
+              <td>*On Haitus*</td>
+              <td>*On Haitus*</td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
     </>
   );
 };

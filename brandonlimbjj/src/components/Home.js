@@ -1,7 +1,7 @@
 import Blackbeltpromojpg from "../media/Blackbeltpromo.jpeg";
-import Tenplogojpg from "../media/10plogo.jpg";
-import Gogojpg from "../media/Gogo.jpeg";
 import Brownbeltjpg from "../media/Brownbelt.jpeg";
+import Gogojpg from "../media/Gogo.jpeg";
+import Tenplogojpg from "../media/10plogo.jpg";
 
 
 const Home = () => {
