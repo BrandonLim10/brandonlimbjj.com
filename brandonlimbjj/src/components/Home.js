@@ -7,17 +7,17 @@ import Brownbeltjpg from "../media/Brownbelt.jpeg";
 const Home = () => {
   return (
     <>
-      <div class="container-sm text-center">
-        <img src={Tenplogojpg} class="img" alt="..."/>
+      <div className="container-sm text-center">
+        <img src={Tenplogojpg} className="img-thumbnail" alt="..."/>
       </div>
-      <div class="container-sm">
-        <img src={Gogojpg} class="img-thumbnail" alt="..."/>
+      <div className="container-sm">
+        <img src={Gogojpg} className="img-thumbnail" alt="..."/>
       </div>
-      <div class="container-sm">
-        <img src={Brownbeltjpg} class="img-thumbnail" alt="..."/>
+      <div className="container-sm">
+        <img src={Brownbeltjpg} className="img-thumbnail" alt="..."/>
       </div>
-      <div class="container-sm">
-        <img src={Blackbeltpromojpg} class="img-thumbnail" alt="..."/>
+      <div className="container-sm">
+        <img src={Blackbeltpromojpg} className="img-thumbnail" alt="..."/>
       </div>
 
     </>
