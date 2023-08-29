@@ -20,17 +20,17 @@ const Home = () => {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={JapJJ} class="d-block w-100" alt="..."/>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>2nd Degree Brown Belt in Japanese Jiu-Jitsu</h5>
-              <p>From the age of 9 to 18 I practiced Japanese Jiu-Jitsu under Sensei Alan Whitaker from whom I received my 2nd degree brown belt on July 7th, 2012.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
             <img src={Blackbeltpromojpg} class="d-block w-100" alt="..."/>
             <div class="carousel-caption d-none d-md-block">
               <h5>10th Planet Black Belt</h5>
               <p>On July 25th 2022 I received my black belt in 10th Planet Jiu-Jitsu under Eddie Bravo after 9 years of training.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src={JapJJ} class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>2nd Degree Brown Belt in Japanese Jiu-Jitsu</h5>
+              <p>From the age of 9 to 18 I practiced Japanese Jiu-Jitsu under Sensei Alan Whitaker from whom I received my 2nd degree brown belt on July 7th, 2012.</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -50,13 +50,13 @@ const Home = () => {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
 
-      <div className="container-sm p-5">
-        <p>
+      <div className="container-fluid p-5">
+        <p class="fs-4">
             Hello my name is Brandon Lim. I am a life long martial artist whom specialized in No-gi Brazilian Jiu-Jitsu and submission grappling. I can help you build skills, confidence and a base of knowledge to help you in your martial arts journey and beyond. My teaching philosophy is to balance movement, skills and knowledge. I believe to achieve a high proficiency in anything in life you must memorize, master and then adapt whatever you are learning whether that be a skill in martial arts or life. The memorization part is the first part of learning any movement or skill, breaking the task up into bite size pieces then building a flow of movements that add up to a technique. Once you memorize the basic technique or combination of technique and movements we call a path; next is mastering that technique or path until you can perform the movements without having to directly think about each movement making it second nature which is achieved through rigorous drilling. The final piece is now adapting these techniques and paths into real time situations such as a free sparring session, a competition or self defense situations; which is achieved through drilling with increasing amounts of resistance in multiple scenarios.
         </p>
       </div>
-    </div>
 
 
       <div class="row mx-5">
