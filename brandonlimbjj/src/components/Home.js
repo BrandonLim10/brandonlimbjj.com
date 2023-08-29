@@ -52,14 +52,14 @@ const Home = () => {
       </div>
     </div>
 
-      <div className="container-fluid p-5">
+      <div className="container-fluid p-5 border border-danger border-4 bg-dark text-white">
         <p class="fs-4">
-            Hello my name is Brandon Lim. I am a life long martial artist whom specialized in No-gi Brazilian Jiu-Jitsu and submission grappling. I can help you build skills, confidence and a base of knowledge to help you in your martial arts journey and beyond. My teaching philosophy is to balance movement, skills and knowledge. I believe to achieve a high proficiency in anything in life you must memorize, master and then adapt whatever you are learning whether that be a skill in martial arts or life. The memorization part is the first part of learning any movement or skill, breaking the task up into bite size pieces then building a flow of movements that add up to a technique. Once you memorize the basic technique or combination of technique and movements we call a path; next is mastering that technique or path until you can perform the movements without having to directly think about each movement making it second nature which is achieved through rigorous drilling. The final piece is now adapting these techniques and paths into real time situations such as a free sparring session, a competition or self defense situations; which is achieved through drilling with increasing amounts of resistance in multiple scenarios.
+            Hello my name is Brandon Lim. I am a life long martial artist whom specializes in No-Gi Brazilian Jiu-Jitsu and submission grappling. I can help you build skills, confidence and a base of knowledge to help you in your martial arts journey and beyond. My teaching philosophy is to balance movement, skills and knowledge. I believe to achieve a high proficiency in anything in life you must memorize, master and then adapt whatever you are learning whether that be a skill in martial arts or life. The memorization part is the first part of learning any movement or skill, breaking the task up into bite size pieces then building a flow of movements that add up to a technique. Once you memorize the basic technique or combination of technique and movements we call a path; next is mastering that technique or path until you can perform the movements without having to directly think about each movement making it second nature which is achieved through rigorous drilling. The final piece is now adapting these techniques and paths into real time situations such as a free sparring session, a competition or self defense situations; which is achieved through drilling with increasing amounts of resistance in multiple scenarios.
         </p>
       </div>
 
 
-      <div class="row mx-5">
+      <div class="row mx-5 my-5">
         <div class="col-sm-4">
           <div class="card">
             <img src={Darce} class="card-img-top" alt="..."/>
@@ -86,7 +86,7 @@ const Home = () => {
             <div class="card-body">
               <h5 class="card-title">Contact</h5>
               <p class="card-text">If you have any questions or concerns about training with my, please contact me.</p>
-              <a href="/classes" class="btn btn-primary">Message me</a>
+              <a href="/contact" class="btn btn-primary">Message me</a>
             </div>
           </div>
         </div>

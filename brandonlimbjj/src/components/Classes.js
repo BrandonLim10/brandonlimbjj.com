@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Classes = () => {
   return (
     <>
@@ -27,6 +29,24 @@ const Classes = () => {
           </tbody>
       </table>
     </div>
+
+    <div className="container-sm p-5">
+        <p class="fs-4">
+            To sign up for classes at 10th Planet Headquarters click the link below; then click the highlighted email address "info@.10thplanetjj.com" to sign up for a monthly membership or buy a day pass.
+        </p>
+      </div>
+
+    <div class="d-block mb-2 text-center">
+        <Link
+          class="btn btn-primary"
+          to="https://www.10thplanetjj.com/locations/"
+          target="_blank"
+          role="button"
+        >
+          10th Planet HQ sign up
+        </Link>
+      </div>
+
     </>
   );
 };
