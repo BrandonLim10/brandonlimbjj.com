@@ -44,6 +44,17 @@ const PrivateLessons = () => {
             </tbody>
         </table>
         </div>
+
+        <div className="container-fluid p-5 text-center">
+        <p class="fs-4">
+            Click the link below to message me regarding pricing and schedule your first lesson!
+        </p>
+      </div>
+
+        <div class="d-block mb-2 text-center">
+        <a href="/contact" class="btn btn-primary">Message me for private lesson</a>
+      </div>
+
       </>
     );
   };
