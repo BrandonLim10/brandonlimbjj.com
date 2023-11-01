@@ -52,7 +52,7 @@ const PrivateLessons = () => {
       </div>
 
         <div class="d-block mb-2 text-center">
-        <a href="/contact" class="btn btn-primary">Message me for private lesson</a>
+        <a href="mailto:brandonlim10p@icloud.com" class="btn btn-primary">Email me for private lesson</a>
       </div>
 
       </>
