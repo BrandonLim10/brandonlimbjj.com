@@ -86,7 +86,7 @@ const Home = () => {
             <div class="card-body">
               <h5 class="card-title">Contact</h5>
               <p class="card-text">If you have any questions or concerns about training with my, please contact me.</p>
-              <a href="/contact" class="btn btn-primary">Message me</a>
+              <a href="/contact" class="btn btn-primary">Email me</a>
             </div>
           </div>
         </div>

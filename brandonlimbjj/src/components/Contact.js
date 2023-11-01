@@ -1,18 +1,14 @@
-import { Link } from "react-router-dom";
 import Facebook from "../media/Facebook.png"
 import Ig from "../media/Ig.png"
-import Mail from "../media/Gmail.png"
 
 const Contact = () => {
   return (
     <>
       {/* Email */}
-        <div class="my-4 px-3 text-center">
-          <button>
-            <a href="mailto:brandonlim10p@icloud.com">
-              <img src= {Mail}></img>
-            </a>
-          </button>
+        <div class="container-fluid p-5 text-center">
+          <p class="fs-4">
+            To book a private lesson, ask about pricing or any other inquiry; please <a href="mailto:brandonlim10p@icloud.com">email me here</a> with the subject line: Brandon Lim BJJ
+          </p>
         </div>
       {/* Links */}
       <div class="footer-wrapper text-center">
