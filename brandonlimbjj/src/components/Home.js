@@ -1,7 +1,7 @@
-import Blackbeltpromojpg from "../media/Blackbeltpromo.jpeg";
-import JapJJ from "../media/JapJJ.jpeg";
-import Savages from "../media/Savages.jpeg";
-import Gi from "../media/Gi.jpeg";
+import Blackbeltpromojpg from "../media/Blackbeltpromo.jpg";
+import JapJJ from "../media/JapJJ.jpg";
+import Savages from "../media/Savages.jpg";
+import Gi from "../media/Gi.jpg";
 import Darce from "../media/Darce.png";
 import Ashi from "../media/Ashibackstep.jpg";
 

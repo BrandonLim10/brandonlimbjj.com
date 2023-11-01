@@ -1,4 +1,4 @@
-import Gogojpg from "../media/Gogo.jpeg";
+import Gogojpg from "../media/Gogo.jpg";
 
 const PrivateLessons = () => {
     return (
