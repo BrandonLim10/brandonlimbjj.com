@@ -4,7 +4,8 @@ import Savages from "../media/Savages.jpg";
 import Gi from "../media/Gi.jpg";
 import Darce from "../media/Darce.png";
 import Ashi from "../media/Ashibackstep.jpg";
-
+import Facebook from "../media/Facebook.png";
+import Ig from "../media/Ig.png"
 
 
 
@@ -91,7 +92,20 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
       
+      <div class="footer-wrapper text-center">
+        <div class="mk-col-1-3">
+          <a href="https://www.instagram.com/brandonlim10p">
+            <img src= {Ig}></img>
+          </a>
+
+          <a href="https://www.facebook.com/brandonlim10p">
+            <img src= {Facebook}></img>
+          </a>
+      </div>
+      </div>
 
     </>
   );

@@ -1,4 +1,4 @@
-import Facebook from "../media/Facebook.png"
+import Facebook from "../media/Facebook.png";
 import Ig from "../media/Ig.png"
 
 const Contact = () => {
